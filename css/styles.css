@@ -208,7 +208,8 @@ header a:hover {
 .btn-hero {
   border-radius: 15px;
   border: none;
-  background-color: rgba(195, 194, 194, 0.8);
+  /* background-color: rgba(195, 194, 194, 0.8); */
+  background-color: antiquewhite;
   margin: 1rem 1rem;
   padding: 0.2rem 0.3rem;
 }

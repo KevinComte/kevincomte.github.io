@@ -28,13 +28,45 @@ if (cerrarMenu) {
 
 // Sección certificados //
 // Certificado 1 //
+// function abrirInfo1() {
+//   const info = document.getElementById("certi-info-1");
+//   info.classList.add("active");
+// }
+
+// function cerrarInfo1() {
+//   const info = document.getElementById("certi-info-1");
+//   info.classList.remove("active");
+// }
+
+// const botonInfo1 = document.getElementById('btn-info-abrir-1');
+// botonInfo1.addEventListener('click',abrirInfo1);
+// const botonInfoCerrar1 = document.getElementById("btn-info-cerrar-1");
+// botonInfoCerrar1.addEventListener("click", cerrarInfo1);
+
+// // Certificado 2//
+// function abrirInfo2() {
+//   const info = document.getElementById("certi-info-2");
+//   info.classList.add("active");
+// }
+
+// function cerrarInfo2() {
+//   const info = document.getElementById("certi-info-2");
+//   info.classList.remove("active");
+// }
+
+// const botonInfo2 = document.getElementById('btn-info-abrir-2');
+// botonInfo2.addEventListener('click',abrirInfo2);
+// const botonInfoCerrar2 = document.getElementById("btn-info-cerrar-2");
+// botonInfoCerrar2.addEventListener("click", cerrarInfo2);
+
+// Proyecto 1 //
 function abrirInfo1() {
-  const info = document.getElementById("certi-info-1");
+  const info = document.getElementById("proyecto-1");
   info.classList.add("active");
 }
 
 function cerrarInfo1() {
-  const info = document.getElementById("certi-info-1");
+  const info = document.getElementById("proyecto-1");
   info.classList.remove("active");
 }
 
@@ -43,14 +75,16 @@ botonInfo1.addEventListener('click',abrirInfo1);
 const botonInfoCerrar1 = document.getElementById("btn-info-cerrar-1");
 botonInfoCerrar1.addEventListener("click", cerrarInfo1);
 
-// Certificado 2//
+
+// Proyecto 2 //
 function abrirInfo2() {
-  const info = document.getElementById("certi-info-2");
+  const info = document.getElementById("proyecto-2");
   info.classList.add("active");
+  
 }
 
 function cerrarInfo2() {
-  const info = document.getElementById("certi-info-2");
+  const info = document.getElementById("proyecto-2");
   info.classList.remove("active");
 }
 
@@ -59,14 +93,15 @@ botonInfo2.addEventListener('click',abrirInfo2);
 const botonInfoCerrar2 = document.getElementById("btn-info-cerrar-2");
 botonInfoCerrar2.addEventListener("click", cerrarInfo2);
 
-// Proyecto 1 //
+// Proyecto 3 //
 function abrirInfo3() {
-  const info = document.getElementById("certi-info-3");
+  const info = document.getElementById("proyecto-3");
   info.classList.add("active");
+  
 }
 
 function cerrarInfo3() {
-  const info = document.getElementById("certi-info-3");
+  const info = document.getElementById("proyecto-3");
   info.classList.remove("active");
 }
 
@@ -74,6 +109,7 @@ const botonInfo3 = document.getElementById('btn-info-abrir-3');
 botonInfo3.addEventListener('click',abrirInfo3);
 const botonInfoCerrar3 = document.getElementById("btn-info-cerrar-3");
 botonInfoCerrar3.addEventListener("click", cerrarInfo3);
+
 
 
 // Sección Contacto - Form //

@@ -20,6 +20,7 @@ h1 {
   font-size: 3.5em;
   margin: 0px;
 }
+
 h2 {
   font-size: 1em;
   margin: 0px;
@@ -73,14 +74,11 @@ body {
   font-family: "Montserrat", sans-serif;
   /* background-color: #e5e5e5; */
   background: rgb(195, 194, 194);
-  background: linear-gradient(
-      90deg,
+  background: linear-gradient(90deg,
       rgba(195, 194, 194, 1) 0%,
       rgba(227, 227, 227, 1) 5%,
       rgba(229, 229, 229, 1) 95%,
-      rgba(195, 194, 194, 1) 100%
-    )
-    no-repeat;
+      rgba(195, 194, 194, 1) 100%) no-repeat;
   letter-spacing: 5px;
 }
 
@@ -95,9 +93,10 @@ header {
 position: relative;
 z-index: 10;
 } */
-header .menu-icono{
+header .menu-icono {
   margin: 0px auto;
 }
+
 header .menu-icono #menu-img {
   filter: opacity(0.5) drop-shadow(0 0 0 antiquewhite);
   max-width: 3rem;
@@ -123,7 +122,7 @@ header .cont-menu {
 header .cont-menu.is-active {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  
+
 }
 
 header .menu-nav {
@@ -151,6 +150,7 @@ header .logo {
   font-weight: bold;
   font-size: 1.6em;
   letter-spacing: normal;
+  width: 300px;
 }
 
 header .container {
@@ -161,6 +161,7 @@ header .container {
   /* justify-content: space-between; */
   /* max-width: 10rem; */
 }
+
 /* 
 header nav {
   display: flex;
@@ -190,12 +191,10 @@ header a {
   justify-content: center;
   height: 100vh;
   color: antiquewhite;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url("../media/pexels-antonio-batinić-4164418.jpg");
+      rgba(0, 0, 0, 0.6)),
+    url("../media/fondoHero.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -205,11 +204,21 @@ header a {
   display: flex;
   flex-direction: row;
 }
+
+.sociales a{
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.sociales a:hover{
+  filter: drop-shadow(0px 0px 8px antiquewhite);
+}
+
 .btn-hero {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border: none;
   /* background-color: rgba(195, 194, 194, 0.8); */
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   margin: 1rem 1rem;
   padding: 0.2rem 0.3rem;
 }
@@ -220,7 +229,7 @@ header a {
 
 .sociales img {
   max-width: 2rem;
-  max-height: 2rem;
+  max-height: 1.8rem;
 }
 
 /* Sección Sobre mí */
@@ -251,10 +260,12 @@ header a {
   padding-right: 12px;
   padding-bottom: 15px;
 }
+
 /* Esconder secciones en versión mobile */
 #habilidades .skills:nth-child(5) {
   display: none;
 }
+
 #habilidades .skills:nth-child(7) {
   display: none;
 }
@@ -262,6 +273,7 @@ header a {
 #habilidades .p-skill:nth-child(4) {
   display: none;
 }
+
 #habilidades .p-skill:nth-child(6) {
   display: none;
 }
@@ -283,9 +295,10 @@ header a {
   font-size: 1.5em;
   font-weight: 400;
 }
+
 #habilidades img {
   max-width: 100%;
-  max-height: 4rem;
+  max-height: 6rem;
 }
 
 /* Sección certificaciones  */
@@ -307,8 +320,8 @@ header a {
   left: 50%;
   transform: translate(-50%, 50%); */
   top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
+  left: 50%;
+  transform: translate(-50%, 50%);
   max-width: 30rem;
   max-height: 30rem;
   padding: 0;
@@ -329,23 +342,26 @@ header a {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
 }
+
 .certificados-info h3 {
   margin-top: 1rem;
 }
+
 #certi-info-1.active.certificados-info {
   /* .certificados-info.active{ */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   visibility: visible;
   opacity: 1;
   transition: 0.4s;
 }
+
 #certi-info-2.active.certificados-info {
   /* .certificados-info.active{ */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   visibility: visible;
   opacity: 1;
   transition: 0.4s;
@@ -369,23 +385,20 @@ header a {
 
 .carta-certificacion:nth-child(1) {
   color: antiquewhite;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
+      rgba(0, 0, 0, 0.6)),
     url("../media/certificaciones/certificacion-html-css.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center center; */
 }
+
 .carta-certificacion:nth-child(2) {
   color: antiquewhite;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
+      rgba(0, 0, 0, 0.6)),
     url("../media/certificaciones/certificacion-js.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -412,6 +425,7 @@ header a {
   margin: 5px;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .btn-certi-2 {
   border: none;
   font-weight: bold;
@@ -426,10 +440,12 @@ header a {
   opacity: 0.7;
   cursor: pointer;
 }
+
 .btn-certi-2:hover {
   opacity: 0.7;
   cursor: pointer;
 }
+
 /* .img-certi {
   width: auto;
   height: auto;
@@ -456,6 +472,7 @@ header a {
 #proyectos .titulo {
   border: 5px solid antiquewhite;
 }
+
 #proyectos a {
   text-decoration: none;
   color: #1a1a1a;
@@ -466,6 +483,7 @@ header a {
   border: 2px solid antiquewhite;
   border-radius: 15px;
   padding: 60px;
+  width: 450px;
 }
 
 .carta-proyecto p {
@@ -473,15 +491,34 @@ header a {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   padding: 15px 5px;
+  
 }
 
 .carta-proyecto:nth-child(1) {
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
+      rgba(0, 0, 0, 0.6)),
     url("../media/proyectos/proyecto-final-figma.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carta-proyecto:nth-child(2) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)),
+    url("../media/proyectos/calcularPoke.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carta-proyecto:nth-child(3) {
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)),
+    url("../media/proyectos/gestionBiblioteca.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -497,17 +534,38 @@ header a {
   margin: 5px;
   background-color: rgba(0, 0, 0, 0.7);
 }
+
 .carta-proyecto .btn-proyecto:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 
 /* Más información - Proyectos */
-#certi-info-3.active.certificados-info {
+#proyecto-1.active.certificados-info {
   /* .certificados-info.active{ */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#proyecto-2.active.certificados-info {
+  /* .certificados-info.active{ */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+  opacity: 1;
+  transition: 0.4s;
+}
+
+#proyecto-3.active.certificados-info {
+  /* .certificados-info.active{ */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   visibility: visible;
   opacity: 1;
   transition: 0.4s;
@@ -518,6 +576,7 @@ header a {
   max-height: 15rem;
   /* border-radius: 10px 10px 0 0; */
 }
+
 #proyectos .certificados-info p {
   padding: 0 10px;
 }
@@ -599,6 +658,7 @@ header a {
   width: 10rem;
   cursor: pointer;
 }
+
 #formulario input[type="submit"]:hover {
   opacity: 0.8;
 }
@@ -640,6 +700,7 @@ footer a {
   color: antiquewhite;
   text-decoration: none;
 }
+
 footer a:hover {
   opacity: 0.6;
 }
@@ -653,14 +714,17 @@ footer a:hover {
 /* INICIO VERSIÓN ESCRITORIO */
 
 @media (min-width: 720px) {
+
   /* Sección header */
   header {
     position: fixed;
     width: 100%;
   }
+
   header .menu-icono {
     display: none;
   }
+
   header #menu {
     /* display: block; */
     position: static;
@@ -693,6 +757,7 @@ footer a:hover {
     position: relative;
     /* padding: 0px 10px; */
   }
+
   header a::after {
     content: "";
     position: absolute;
@@ -740,6 +805,7 @@ footer a:hover {
   #habilidades .p-skill:nth-child(4) {
     display: block;
   }
+
   #habilidades .p-skill:nth-child(6) {
     display: block;
   }
@@ -767,7 +833,7 @@ footer a:hover {
     transition: 200ms ease;
   }
 
-  #habilidades img:hover{
+  #habilidades img:hover {
     transform: scale(1.1);
     transition: 200ms ease;
   }
@@ -827,9 +893,11 @@ footer a:hover {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
+
   .certificados-info h3 {
     margin-top: 1rem;
   }
+
   #certi-info-1.active.certificados-info {
     /* top: 50%; */
     top: 50%;
@@ -839,6 +907,7 @@ footer a:hover {
     opacity: 1;
     transition: 0.4s;
   }
+
   #certi-info-2.active.certificados-info {
     top: 50%;
     left: 50%;
@@ -879,9 +948,9 @@ footer a:hover {
 
   #certi-info-3.active.certificados-info {
     /* .certificados-info.active{ */
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     visibility: visible;
     opacity: 1;
     transition: 0.4s;
